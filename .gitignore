@@ -22,6 +22,7 @@ web/profiles
 web/scripts
 web/themes
 web/sites/default/files
+#web/sites/all/modules
 # Tools
 .svn
 .sass-cache

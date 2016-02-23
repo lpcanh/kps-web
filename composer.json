@@ -9,7 +9,31 @@
     "composer/installers": "~1.0",
     "derhasi/composer-preserve-paths": "0.1.*",
     "drupal/drupal": "7.*",
-    "drupal/devel": "7.*"
+    "drupal/devel": "7.*",
+    "drupal/commerce": "7.x",
+    "drupal/ctools": "7.x",
+    "drupal/backup_migrate": "7.x",
+    "drupal/block_class": "7.x",
+    "drupal/context": "7.x",
+    "drupal/context_error": "7.x",
+    "drupal/dc_ajax_add_cart": "7.x",
+    "drupal/entity": "7.x",
+    "drupal/image_url_formatter": "7.x",
+    "drupal/jquery_update": "7.x",
+    "drupal/libraries": "7.x",
+    "drupal/media": "7.x",
+    "drupal/menu_attributes": "7.x",
+    "drupal/multiblock": "7.x",
+    "drupal/nodeblock": "7.x",
+    "drupal/pathauto": "7.x",
+    "drupal/rate": "7.x",
+    "drupal/semanticviews": "7.1.0-rc2",
+    "drupal/special_menu_items": "7.x",
+    "drupal/token": "7.x",
+    "drupal/video_embed_field": "7.2.0-beta11",
+    "drupal/views": "7.x",
+    "drupal/views_base_url": "7.x",
+    "drupal/webform": "7.x"
   },
   "conflict": {
     "drupal/core": "8.*"
@@ -25,15 +49,15 @@
   "extra": {
     "installer-paths": {
       "web/": ["type:drupal-core"],
-      "web/sites/all/modules/contrib/{$name}/": ["type:drupal-module"],
-      "web/sites/all/themes/contrib/{$name}/": ["type:drupal-theme"],
+      "web/sites/all/modules/{$name}/": ["type:drupal-module"],
+      "web/sites/all/themes/{$name}/": ["type:drupal-theme"],
       "web/sites/all/libraries/{$name}/": ["type:drupal-library"],
       "web/sites/all/drush/{$name}/": ["type:drupal-drush"],
       "web/profiles/{$name}/": ["type:drupal-profile"]
     },
     "preserve-paths": [
-      "web/sites/all/modules/contrib",
-      "web/sites/all/themes/contrib",
+      "web/sites/all/modules",
+      "web/sites/all/themes",
       "web/sites/all/libraries",
       "web/sites/all/drush",
       "web/sites/default/settings.php",

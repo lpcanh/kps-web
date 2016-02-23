@@ -1,0 +1,124 @@
+;Theme info
+name = Income
+description = Income ready for use Industries, School, hospital, corporative, travel, fashion, jewellery and any business.
+package = Core
+version = VERSION
+core = 7.x
+screenshot = 'screenshot.png'
+
+; Add a style sheet
+stylesheets[all][] = css/simple-subscribe.css
+stylesheets[all][] = css/testimonials_shortcode.css
+stylesheets[all][] = css/tweet-scroller.css
+stylesheets[all][] = css/portfolio_shortcode.css
+stylesheets[all][] = css/contact-form.css
+stylesheets[all][] = js/prettyPhoto/css/prettyPhoto.css
+stylesheets[all][] = css/mediaelementplayer.min.css
+stylesheets[all][] = css/icons-default.css
+stylesheets[all][] = css/animo-animate.css
+stylesheets[all][] = css/whhg.css
+stylesheets[all][] = css/prettify.css
+stylesheets[all][] = css/dnd-shortcodes.css
+stylesheets[all][] = css/responsive.css
+stylesheets[all][] = css/fonts.css
+stylesheets[all][] = css/core_style.css
+stylesheets[all][] = css/jquery.fancybox.css
+stylesheets[all][] = css/nivo-slider.css
+stylesheets[all][] = css/style.css
+stylesheets[all][] = css/woocommerce.css
+stylesheets[all][] = css/main-responsive.css
+stylesheets[all][] = css/update.css
+
+
+; Add a script
+
+scripts[] = js/jquery.js
+scripts[] = js/jquery-migrate.min.js
+scripts[] = js/jquery.placeholder.js
+scripts[] = js/jquery.carouFredSel.js
+scripts[] = js/portfolio.js
+scripts[] = js/prettify.js
+scripts[] = js/ab-simple-subscribe.js
+scripts[] = js/jquery.form.min.js
+scripts[] = js/ab-tweet-scroller.js
+scripts[] = js/scripts.js
+scripts[] = js/mediaelement-and-player.min.js
+scripts[] = js/jquery.gmap.min.js
+scripts[] = js/animo.js
+scripts[] = js/jquery.inview.js
+scripts[] = js/jquery.parallax.js
+scripts[] = js/jquery.tipsy.js
+scripts[] = js/jquery.knob-custom.js
+scripts[] = js/ui/jquery.ui.core.min.js
+scripts[] = js/ui/jquery.ui.widget.min.js
+scripts[] = js/ui/jquery.ui.accordion.min.js
+scripts[] = js/ui/jquery.ui.tabs.min.js
+scripts[] = js/ui/jquery.ui.effect.min.js
+scripts[] = js/ui/jquery.ui.effect-slide.min.js
+scripts[] = js/init.js
+scripts[] = js/testimonials.js
+scripts[] = js/jquery.carouFredSel.js
+scripts[] = js/jquery.touchSwipe.min.js
+scripts[] = js/jquery.placeholder.min.js
+scripts[] = js/jquery.isotope.min.js
+scripts[] = js/jquery.fancybox.js
+scripts[] = js/jquery.nivo.slider.js
+scripts[] = js/jquery.countdown.js
+scripts[] = js/superfish.js
+scripts[] = js/masonry.min.js
+scripts[] = js/imagesloaded.js
+scripts[] = js/jpreloader.js
+scripts[] = js/waypoint.js
+scripts[] = js/custom.js
+scripts[] = js/single-product.min.js
+scripts[] = js/woocommerce.min.js
+scripts[] = js/jquery.blockUI.min.js
+scripts[] = js/smoothproducts.min.js
+scripts[] = js/update.js
+
+
+
+;Core regions
+
+regions[top_right] = 'Top right'
+regions[header_search] = 'Header search'
+regions[main_menu] = 'Main menu'
+regions[shop_cart] = 'Shop cart'
+regions[slider] = 'Slider'
+regions[content] = 'Main Content'
+regions[single_product] = 'Single product'
+regions[content_section] = 'Content Section'
+regions[related_products] = 'Related products'
+regions[sidebar_first] = 'Sidebar first'
+regions[sidebar_second] = 'Sidebar second'
+regions[related_portfolio] = 'Related portfolio'
+regions[footer] = 'Footer'
+regions[footer_right] = 'Footer right'
+regions[footer_bottom] = 'Footer style 2 footer bottom'
+
+
+regions[highlighted] = 'highlighted '
+
+
+
+;Features (core settings)
+features[] = 'logo'
+features[] = 'name'
+
+features[] = 'slogan'
+features[] = 'node_user_picture'
+features[] = 'comment_user_picture'
+features[] = 'comment_user_verification'
+features[] = 'favicon'
+features[] = 'go_to_top_button'
+features[] = 'secondary_menu'
+
+;Breadcrumb
+settings[breadcrumb_display] = 'yes'
+settings[breadcrumb_separator] = ' &#187; '
+settings[breadcrumb_home] = 1
+
+
+version = "7.x"
+project = "Income"
+datestamp = "1365027012"

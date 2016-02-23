@@ -1,0 +1,10 @@
+#nav, #comments h4 {
+background-color: #33b3d3;
+}
+.Label li:hover, #readmore, #nav3 li a:hover {background-color: #33b3d3}
+.follow-by-email-inner, #contact-site-form input[type=submit],#contact-site-form--2 input[type=submit] {background: #33b3d3}
+.post-body a {color: #33b3d3}
+#footer-wrapper h2 span {
+border-bottom: 4px solid #33b3d3;
+}
+#tag-widget1 h2.title, #user-register-form input[type=submit], #user-login input[type=submit] {background-color: #33b3d3;}
