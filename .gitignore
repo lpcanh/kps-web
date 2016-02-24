@@ -14,14 +14,14 @@ Thumbs.db
 nbproject
 composer.lock
 vendor
-web/*.*
-web/includes
-web/misc
-web/modules
-web/profiles
-web/scripts
-web/themes
-web/sites/default/files
+#web/*.*
+#web/includes
+#web/misc
+#web/modules
+#web/profiles
+#web/scripts
+#web/themes
+#web/sites/default/files
 #web/sites/all/modules
 # Tools
 .svn
